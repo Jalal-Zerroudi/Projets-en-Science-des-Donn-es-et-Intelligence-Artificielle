@@ -1,0 +1,765 @@
+2025-06-24 22:42:25,739 - INFO - Module ML chargé avec succès
+2025-06-24 22:42:27,093 - INFO - Chargement de la liste des pays...
+2025-06-24 22:42:27,093 - INFO - Test de connexion API...
+2025-06-24 22:42:29,115 - ERROR - Erreur réseau lors du chargement des pays: HTTPConnectionPool(host='127.0.0.1', port=8000): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000238BFAE20D0>: Failed to establish a new connection: [WinError 10061] Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée'))
+2025-06-24 22:42:29,130 - INFO - Impossible de se connecter à l'API
+2025-06-24 22:42:29,137 - ERROR - Connexion API impossible
+2025-06-24 22:51:27,756 - INFO - Module ML chargé avec succès
+2025-06-24 22:51:28,285 - INFO - Chargement de la liste des pays...
+2025-06-24 22:51:28,285 - INFO - Test de connexion API...
+2025-06-24 22:51:30,325 - ERROR - Erreur réseau lors du chargement des pays: HTTPConnectionPool(host='127.0.0.1', port=8000): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000015CB23121C0>: Failed to establish a new connection: [WinError 10061] Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée'))
+2025-06-24 22:51:30,402 - INFO - Impossible de se connecter à l'API
+2025-06-24 22:51:30,402 - ERROR - Connexion API impossible
+2025-06-24 22:53:37,763 - INFO - Module ML chargé avec succès
+2025-06-24 22:53:38,286 - INFO - Chargement de la liste des pays...
+2025-06-24 22:53:38,287 - INFO - Test de connexion API...
+2025-06-24 22:53:40,341 - ERROR - Erreur réseau lors du chargement des pays: HTTPConnectionPool(host='127.0.0.1', port=8000): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000258F8071220>: Failed to establish a new connection: [WinError 10061] Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée'))
+2025-06-24 22:53:40,373 - INFO - Impossible de se connecter à l'API
+2025-06-24 22:53:40,373 - ERROR - Connexion API impossible
+2025-06-24 22:55:39,720 - INFO - Module ML chargé avec succès
+2025-06-24 22:55:40,264 - INFO - Test de connexion API...
+2025-06-24 22:55:40,265 - INFO - Chargement de la liste des pays...
+2025-06-24 22:55:42,336 - ERROR - Erreur réseau lors du chargement des pays: HTTPConnectionPool(host='127.0.0.1', port=8000): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000237531A16A0>: Failed to establish a new connection: [WinError 10061] Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée'))
+2025-06-24 22:55:42,380 - INFO - Impossible de se connecter à l'API
+2025-06-24 22:55:42,383 - ERROR - Connexion API impossible
+2025-06-24 22:58:18,406 - INFO - Module ML chargé avec succès
+2025-06-24 22:58:18,920 - INFO - Chargement de la liste des pays...
+2025-06-24 22:58:18,920 - INFO - Test de connexion API...
+2025-06-24 22:58:20,979 - INFO - Impossible de se connecter à l'API
+2025-06-24 22:58:20,979 - ERROR - Connexion API impossible
+2025-06-24 22:58:20,988 - ERROR - Erreur réseau lors du chargement des pays: HTTPConnectionPool(host='127.0.0.1', port=8000): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001DACE282640>: Failed to establish a new connection: [WinError 10061] Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée'))
+2025-06-24 23:00:44,917 - INFO - Module ML chargé avec succès
+2025-06-24 23:00:45,463 - INFO - Test de connexion API...
+2025-06-24 23:00:45,463 - INFO - Chargement de la liste des pays...
+2025-06-24 23:00:47,523 - ERROR - Erreur réseau lors du chargement des pays: HTTPConnectionPool(host='127.0.0.1', port=8000): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001C3C30677C0>: Failed to establish a new connection: [WinError 10061] Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée'))
+2025-06-24 23:00:47,550 - INFO - Impossible de se connecter à l'API
+2025-06-24 23:00:47,577 - ERROR - Connexion API impossible
+2025-06-24 23:06:02,266 - INFO - Module ML chargé avec succès
+2025-06-24 23:06:02,824 - INFO - Test de connexion API...
+2025-06-24 23:06:02,824 - INFO - Chargement de la liste des pays...
+2025-06-24 23:06:04,877 - ERROR - Erreur réseau lors du chargement des pays: HTTPConnectionPool(host='127.0.0.1', port=8000): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000016405CF0280>: Failed to establish a new connection: [WinError 10061] Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée'))
+2025-06-24 23:06:04,918 - INFO - Impossible de se connecter à l'API
+2025-06-24 23:06:04,918 - ERROR - Connexion API impossible
+2025-06-24 23:07:47,892 - INFO - Module ML chargé avec succès
+2025-06-24 23:07:48,441 - INFO - Chargement de la liste des pays...
+2025-06-24 23:07:48,441 - INFO - Test de connexion API...
+2025-06-24 23:07:50,500 - INFO - Impossible de se connecter à l'API
+2025-06-24 23:07:50,501 - ERROR - Connexion API impossible
+2025-06-24 23:07:50,505 - ERROR - Erreur réseau lors du chargement des pays: HTTPConnectionPool(host='127.0.0.1', port=8000): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000225DA5302B0>: Failed to establish a new connection: [WinError 10061] Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée'))
+2025-06-24 23:08:28,636 - INFO - Module ML chargé avec succès
+2025-06-24 23:08:29,139 - INFO - Chargement de la liste des pays...
+2025-06-24 23:08:29,139 - INFO - Test de connexion API...
+2025-06-24 23:08:31,176 - ERROR - Erreur réseau lors du chargement des pays: HTTPConnectionPool(host='127.0.0.1', port=8000): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000023B6468F760>: Failed to establish a new connection: [WinError 10061] Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée'))
+2025-06-24 23:08:31,202 - INFO - Impossible de se connecter à l'API
+2025-06-24 23:08:31,203 - ERROR - Connexion API impossible
+2025-06-24 23:09:49,220 - INFO - Module ML chargé avec succès
+2025-06-24 23:09:49,761 - INFO - Test de connexion API...
+2025-06-24 23:09:49,762 - INFO - Chargement de la liste des pays...
+2025-06-24 23:09:51,839 - ERROR - Erreur réseau lors du chargement des pays: HTTPConnectionPool(host='127.0.0.1', port=8000): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002075A628760>: Failed to establish a new connection: [WinError 10061] Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée'))
+2025-06-24 23:09:51,899 - INFO - Impossible de se connecter à l'API
+2025-06-24 23:09:51,900 - ERROR - Connexion API impossible
+2025-06-24 23:10:27,485 - INFO - Module ML chargé avec succès
+2025-06-24 23:10:28,011 - INFO - Chargement de la liste des pays...
+2025-06-24 23:10:28,011 - INFO - Test de connexion API...
+2025-06-24 23:10:30,045 - ERROR - Erreur réseau lors du chargement des pays: HTTPConnectionPool(host='127.0.0.1', port=8000): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001B5CB5A3100>: Failed to establish a new connection: [WinError 10061] Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée'))
+2025-06-24 23:10:30,049 - INFO - Impossible de se connecter à l'API
+2025-06-24 23:10:30,049 - ERROR - Connexion API impossible
+2025-06-24 23:11:14,831 - INFO - Module ML chargé avec succès
+2025-06-24 23:11:15,339 - INFO - Chargement de la liste des pays...
+2025-06-24 23:11:15,339 - INFO - Test de connexion API...
+2025-06-24 23:11:17,400 - ERROR - Erreur réseau lors du chargement des pays: HTTPConnectionPool(host='127.0.0.1', port=8000): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002173C8D3160>: Failed to establish a new connection: [WinError 10061] Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée'))
+2025-06-24 23:11:17,426 - INFO - Impossible de se connecter à l'API
+2025-06-24 23:11:17,427 - ERROR - Connexion API impossible
+2025-06-24 23:11:45,503 - INFO - Module ML chargé avec succès
+2025-06-24 23:11:46,071 - INFO - Chargement de la liste des pays...
+2025-06-24 23:11:46,072 - INFO - Test de connexion API...
+2025-06-24 23:11:48,141 - ERROR - Erreur réseau lors du chargement des pays: HTTPConnectionPool(host='127.0.0.1', port=8000): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001F3B9015B50>: Failed to establish a new connection: [WinError 10061] Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée'))
+2025-06-24 23:11:48,226 - INFO - Impossible de se connecter à l'API
+2025-06-24 23:11:48,227 - ERROR - Connexion API impossible
+2025-06-24 23:15:35,089 - INFO - Module ML chargé avec succès
+2025-06-24 23:15:35,600 - INFO - Chargement de la liste des pays...
+2025-06-24 23:15:35,601 - INFO - Test de connexion API...
+2025-06-24 23:15:37,650 - ERROR - Erreur réseau lors du chargement des pays: HTTPConnectionPool(host='127.0.0.1', port=8000): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000204F1995CD0>: Failed to establish a new connection: [WinError 10061] Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée'))
+2025-06-24 23:15:37,908 - INFO - Impossible de se connecter à l'API
+2025-06-24 23:15:37,908 - ERROR - Connexion API impossible
+2025-06-24 23:16:27,680 - INFO - Module ML chargé avec succès
+2025-06-24 23:16:28,258 - INFO - Test de connexion API...
+2025-06-24 23:16:28,258 - INFO - Chargement de la liste des pays...
+2025-06-24 23:16:30,302 - ERROR - Erreur réseau lors du chargement des pays: HTTPConnectionPool(host='127.0.0.1', port=8000): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001B594ECE760>: Failed to establish a new connection: [WinError 10061] Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée'))
+2025-06-24 23:16:30,341 - INFO - Impossible de se connecter à l'API
+2025-06-24 23:16:30,341 - ERROR - Connexion API impossible
+2025-06-24 23:17:05,572 - INFO - Module ML chargé avec succès
+2025-06-24 23:17:06,075 - INFO - Test de connexion API...
+2025-06-24 23:17:06,102 - INFO - Chargement de la liste des pays...
+2025-06-24 23:17:08,143 - ERROR - Erreur réseau lors du chargement des pays: HTTPConnectionPool(host='127.0.0.1', port=8000): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000028AFA378700>: Failed to establish a new connection: [WinError 10061] Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée'))
+2025-06-24 23:17:08,180 - INFO - Impossible de se connecter à l'API
+2025-06-24 23:17:08,180 - ERROR - Connexion API impossible
+2025-06-25 21:21:46,875 - INFO - Module ML chargé avec succès
+2025-06-25 21:21:48,416 - INFO - Chargement de la liste des pays...
+2025-06-25 21:21:48,416 - INFO - Test de connexion API...
+2025-06-25 21:21:48,612 - INFO - Pays chargés depuis l'API: 246
+2025-06-25 21:21:48,653 - INFO - 246 pays disponibles
+2025-06-25 21:21:53,038 - INFO - API accessible et fonctionnelle
+2025-06-25 21:21:53,038 - INFO - API OK - Temps de réponse: 4203.15ms
+2025-06-25 21:21:57,918 - INFO - Chargement de la liste des pays...
+2025-06-25 21:21:57,919 - INFO - Pays chargés depuis le cache: 246
+2025-06-25 21:21:57,937 - INFO - 246 pays disponibles
+2025-06-25 21:22:03,214 - INFO - Chargement des données pour Algeria...
+2025-06-25 21:22:03,290 - INFO - Données de Algeria chargées depuis l'API
+2025-06-25 21:22:03,894 - INFO - Graphiques mis à jour avec succès
+2025-06-25 21:22:04,039 - INFO - Données de Algeria chargées avec succès
+2025-06-25 21:22:20,296 - INFO - Chargement des données pour Guyana...
+2025-06-25 21:22:20,364 - INFO - Données de Guyana chargées depuis l'API
+2025-06-25 21:22:20,795 - INFO - Graphiques mis à jour avec succès
+2025-06-25 21:22:20,845 - INFO - Données de Guyana chargées avec succès
+2025-06-25 21:22:21,887 - INFO - Chargement des données pour Guyana...
+2025-06-25 21:22:21,887 - INFO - Données de Guyana chargées depuis le cache
+2025-06-25 21:22:22,351 - INFO - Graphiques mis à jour avec succès
+2025-06-25 21:22:22,397 - INFO - Données de Guyana chargées avec succès
+2025-06-25 21:22:26,343 - INFO - Chargement des données pour Guyana...
+2025-06-25 21:22:26,389 - INFO - Données de Guyana chargées depuis l'API
+2025-06-25 21:22:26,613 - INFO - Graphiques mis à jour avec succès
+2025-06-25 21:22:26,645 - INFO - Données de Guyana chargées avec succès
+2025-06-25 21:26:13,040 - INFO - Génération des prédictions ML...
+2025-06-25 21:26:13,424 - INFO - Prédictions ML générées avec succès
+2025-06-25 21:26:13,425 - INFO - Prédictions générées: constant, R²=1.000
+2025-06-25 21:26:18,637 - INFO - Génération des prédictions ML...
+2025-06-25 21:26:19,071 - INFO - Prédictions ML générées avec succès
+2025-06-25 21:26:19,075 - INFO - Prédictions générées: constant, R²=1.000
+2025-06-25 21:26:23,249 - INFO - Chargement des données pour Guyana...
+2025-06-25 21:26:23,288 - INFO - Données de Guyana chargées depuis l'API
+2025-06-25 21:26:23,544 - INFO - Graphiques mis à jour avec succès
+2025-06-25 21:26:23,549 - INFO - Données de Guyana chargées avec succès
+2025-06-25 21:26:27,887 - INFO - Génération des prédictions ML...
+2025-06-25 21:26:28,223 - INFO - Prédictions ML générées avec succès
+2025-06-25 21:26:28,224 - INFO - Prédictions générées: polynomial_3, R²=0.859
+2025-06-25 21:26:34,480 - INFO - Génération des prédictions ML...
+2025-06-25 21:26:34,967 - INFO - Prédictions ML générées avec succès
+2025-06-25 21:26:34,967 - INFO - Prédictions générées: linear, R²=0.366
+2025-06-25 21:26:39,490 - INFO - Génération des prédictions ML...
+2025-06-25 21:26:39,835 - INFO - Prédictions ML générées avec succès
+2025-06-25 21:26:39,838 - INFO - Prédictions générées: polynomial_3, R²=0.859
+2025-06-25 21:26:58,845 - INFO - Graphique Plotly ouvert dans le navigateur
+2025-06-25 21:26:58,846 - INFO - Graphique Plotly généré avec succès
+2025-06-25 21:27:31,820 - INFO - Graphiques mis à jour avec succès
+2025-06-25 21:27:41,708 - INFO - Pays Guyana ajouté à la comparaison
+2025-06-25 21:27:53,571 - INFO - Pays retiré de la comparaison
+2025-06-26 01:02:00,697 - INFO - Module ML chargé avec succès
+2025-06-26 01:02:01,389 - INFO - Chargement de la liste des pays...
+2025-06-26 01:02:01,389 - INFO - Test de connexion API...
+2025-06-26 01:02:05,785 - INFO - Pays chargés depuis l'API: 246
+2025-06-26 01:02:05,852 - INFO - API accessible et fonctionnelle
+2025-06-26 01:02:05,852 - INFO - 246 pays disponibles
+2025-06-26 01:02:05,854 - INFO - API OK - Temps de réponse: 4340.62ms
+2025-06-26 01:05:11,622 - INFO - Chargement des données pour Estonia...
+2025-06-26 01:05:11,719 - INFO - Données de Estonia chargées depuis l'API
+2025-06-26 01:05:12,361 - INFO - Graphiques mis à jour avec succès
+2025-06-26 01:05:12,571 - INFO - Données de Estonia chargées avec succès
+2025-06-26 01:05:17,098 - INFO - Chargement des données pour Estonia...
+2025-06-26 01:05:17,122 - INFO - Données de Estonia chargées depuis l'API
+2025-06-26 01:05:17,363 - INFO - Graphiques mis à jour avec succès
+2025-06-26 01:05:17,394 - INFO - Données de Estonia chargées avec succès
+2025-06-26 01:05:21,614 - INFO - Chargement des données pour Estonia...
+2025-06-26 01:05:21,647 - INFO - Données de Estonia chargées depuis l'API
+2025-06-26 01:05:21,911 - INFO - Graphiques mis à jour avec succès
+2025-06-26 01:05:21,975 - INFO - Données de Estonia chargées avec succès
+2025-06-26 01:05:32,633 - INFO - Génération des prédictions ML...
+2025-06-26 01:05:33,053 - INFO - Prédictions ML générées avec succès
+2025-06-26 01:05:33,053 - INFO - Prédictions générées: linear, R²=0.435
+2025-06-26 01:05:48,906 - INFO - Graphique Plotly ouvert dans le navigateur
+2025-06-26 01:05:48,906 - INFO - Graphique Plotly généré avec succès
+2025-06-26 01:06:28,656 - INFO - Génération des prédictions ML...
+2025-06-26 01:06:28,971 - INFO - Prédictions ML générées avec succès
+2025-06-26 01:06:28,972 - INFO - Prédictions générées: polynomial_3, R²=0.857
+2025-06-26 01:06:35,866 - INFO - Génération des prédictions ML...
+2025-06-26 01:06:36,192 - INFO - Prédictions ML générées avec succès
+2025-06-26 01:06:36,192 - INFO - Prédictions générées: linear, R²=0.435
+2025-06-26 01:06:39,458 - INFO - Génération des prédictions ML...
+2025-06-26 01:06:39,790 - INFO - Prédictions ML générées avec succès
+2025-06-26 01:06:39,791 - INFO - Prédictions générées: linear, R²=0.435
+2025-06-26 01:06:45,389 - INFO - Génération des prédictions ML...
+2025-06-26 01:06:45,815 - INFO - Prédictions ML générées avec succès
+2025-06-26 01:06:45,815 - INFO - Prédictions générées: polynomial_3, R²=0.857
+2025-06-26 01:06:54,591 - INFO - Génération des prédictions ML...
+2025-06-26 01:06:54,963 - INFO - Prédictions ML générées avec succès
+2025-06-26 01:06:54,963 - INFO - Prédictions générées: linear, R²=0.435
+2025-06-26 01:07:05,163 - INFO - Génération des prédictions ML...
+2025-06-26 01:07:05,476 - INFO - Prédictions ML générées avec succès
+2025-06-26 01:07:05,477 - INFO - Prédictions générées: linear, R²=0.435
+2025-06-26 01:07:08,520 - INFO - Génération des prédictions ML...
+2025-06-26 01:07:08,822 - INFO - Prédictions ML générées avec succès
+2025-06-26 01:07:08,823 - INFO - Prédictions générées: linear, R²=0.435
+2025-06-26 01:07:11,746 - INFO - Génération des prédictions ML...
+2025-06-26 01:07:12,104 - INFO - Prédictions ML générées avec succès
+2025-06-26 01:07:12,105 - INFO - Prédictions générées: polynomial_3, R²=0.857
+2025-06-26 01:07:20,647 - INFO - Chargement des données pour Estonia...
+2025-06-26 01:07:20,647 - WARNING - Limite non valide, ignorée
+2025-06-26 01:07:20,648 - INFO - Données de Estonia chargées depuis le cache
+2025-06-26 01:07:21,095 - INFO - Graphiques mis à jour avec succès
+2025-06-26 01:07:21,101 - INFO - Données de Estonia chargées avec succès
+2025-06-26 01:07:22,563 - INFO - Génération des prédictions ML...
+2025-06-26 01:07:22,873 - INFO - Prédictions ML générées avec succès
+2025-06-26 01:07:22,874 - INFO - Prédictions générées: linear, R²=0.861
+2025-06-26 01:07:27,755 - INFO - Génération des prédictions ML...
+2025-06-26 01:07:28,096 - INFO - Prédictions ML générées avec succès
+2025-06-26 01:07:28,097 - INFO - Prédictions générées: linear, R²=0.861
+2025-06-26 01:07:32,558 - INFO - Génération des prédictions ML...
+2025-06-26 01:07:32,963 - INFO - Prédictions ML générées avec succès
+2025-06-26 01:07:32,964 - INFO - Prédictions générées: polynomial_3, R²=0.951
+2025-06-26 01:07:37,509 - INFO - Génération des prédictions ML...
+2025-06-26 01:07:37,809 - INFO - Prédictions ML générées avec succès
+2025-06-26 01:07:37,810 - INFO - Prédictions générées: linear, R²=0.861
+2025-06-26 01:07:41,132 - INFO - Génération des prédictions ML...
+2025-06-26 01:07:41,427 - INFO - Prédictions ML générées avec succès
+2025-06-26 01:07:41,427 - INFO - Prédictions générées: linear, R²=0.861
+2025-06-26 01:08:00,754 - INFO - Export graphique réussi
+2025-06-26 01:08:25,385 - INFO - Pays Estonia ajouté à la comparaison
+2025-06-26 01:09:05,393 - INFO - Pays retiré de la comparaison
+2025-06-26 01:09:07,715 - INFO - Pays retiré de la comparaison
+2025-06-26 01:09:08,972 - INFO - Pays retiré de la comparaison
+2025-06-26 01:09:13,546 - INFO - Pays retiré de la comparaison
+2025-06-26 01:09:14,770 - INFO - Pays retiré de la comparaison
+2025-06-26 01:09:15,748 - INFO - Pays retiré de la comparaison
+2025-06-26 01:09:24,396 - INFO - Pays retiré de la comparaison
+2025-06-26 01:09:26,892 - INFO - Pays retiré de la comparaison
+2025-06-26 01:09:35,661 - INFO - Pays retiré de la comparaison
+2025-06-26 01:09:41,512 - INFO - Pays Estonia ajouté à la comparaison
+2025-06-26 01:13:45,689 - INFO - Module ML chargé avec succès
+2025-06-26 01:13:46,682 - INFO - Chargement de la liste des pays...
+2025-06-26 01:13:46,682 - INFO - Test de connexion API...
+2025-06-26 01:13:46,844 - INFO - Pays chargés depuis l'API: 246
+2025-06-26 01:13:46,889 - INFO - 246 pays disponibles
+2025-06-26 01:13:51,913 - INFO - API répond mais erreur 500
+2025-06-26 01:13:51,914 - WARNING - API erreur 500
+2025-06-26 01:13:54,426 - INFO - Chargement des données pour Albania...
+2025-06-26 01:13:54,638 - INFO - Données de Albania chargées depuis l'API
+2025-06-26 01:13:55,208 - INFO - Graphiques mis à jour avec succès
+2025-06-26 01:13:55,395 - INFO - Données de Albania chargées avec succès
+2025-06-26 01:13:59,328 - INFO - Génération des prédictions ML...
+2025-06-26 01:13:59,743 - INFO - Prédictions ML générées avec succès
+2025-06-26 01:13:59,743 - INFO - Prédictions générées: polynomial_2, R²=0.958
+2025-06-26 01:14:06,046 - INFO - Pays Albania ajouté à la comparaison
+2025-06-26 01:19:09,272 - INFO - Module ML chargé avec succès
+2025-06-26 01:19:09,818 - INFO - Chargement de la liste des pays...
+2025-06-26 01:19:09,819 - INFO - Test de connexion API...
+2025-06-26 01:19:13,981 - INFO - API accessible et fonctionnelle
+2025-06-26 01:19:14,006 - INFO - API OK - Temps de réponse: 3995.15ms
+2025-06-26 01:19:14,063 - INFO - Pays chargés depuis l'API: 246
+2025-06-26 01:19:14,076 - INFO - 246 pays disponibles
+2025-06-26 01:19:16,060 - INFO - Chargement des données pour Africa...
+2025-06-26 01:19:16,169 - INFO - Données de Africa chargées depuis l'API
+2025-06-26 01:19:16,805 - INFO - Graphiques mis à jour avec succès
+2025-06-26 01:19:16,973 - INFO - Données de Africa chargées avec succès
+2025-06-26 01:19:18,191 - INFO - Génération des prédictions ML...
+2025-06-26 01:19:18,586 - INFO - Prédictions ML générées avec succès
+2025-06-26 01:19:18,586 - INFO - Prédictions générées: polynomial_2, R²=0.961
+2025-06-26 01:19:21,246 - INFO - Pays Africa ajouté à la comparaison
+2025-06-26 01:21:33,136 - INFO - Module ML chargé avec succès
+2025-06-26 01:21:33,712 - INFO - Chargement de la liste des pays...
+2025-06-26 01:21:33,712 - INFO - Test de connexion API...
+2025-06-26 01:21:33,785 - INFO - Pays chargés depuis l'API: 246
+2025-06-26 01:21:33,873 - INFO - 246 pays disponibles
+2025-06-26 01:21:37,456 - INFO - API accessible et fonctionnelle
+2025-06-26 01:21:37,457 - INFO - API OK - Temps de réponse: 3609.84ms
+2025-06-26 01:21:49,398 - INFO - Chargement des données pour American Samoa...
+2025-06-26 01:21:49,486 - INFO - Données de American Samoa chargées depuis l'API
+2025-06-26 01:21:50,043 - INFO - Graphiques mis à jour avec succès
+2025-06-26 01:21:50,089 - INFO - Données de American Samoa chargées avec succès
+2025-06-26 01:21:50,188 - INFO - Chargement des données pour American Samoa...
+2025-06-26 01:21:50,189 - INFO - Données de American Samoa chargées depuis le cache
+2025-06-26 01:21:50,732 - INFO - Graphiques mis à jour avec succès
+2025-06-26 01:21:50,741 - INFO - Données de American Samoa chargées avec succès
+2025-06-26 01:21:53,488 - INFO - Pays American Samoa ajouté à la comparaison
+2025-06-26 01:22:39,317 - INFO - Module ML chargé avec succès
+2025-06-26 01:22:39,889 - INFO - Chargement de la liste des pays...
+2025-06-26 01:22:39,889 - INFO - Test de connexion API...
+2025-06-26 01:22:43,541 - INFO - Pays chargés depuis l'API: 246
+2025-06-26 01:22:43,621 - INFO - API accessible et fonctionnelle
+2025-06-26 01:22:43,622 - INFO - API OK - Temps de réponse: 3606.75ms
+2025-06-26 01:22:43,631 - INFO - 246 pays disponibles
+2025-06-26 01:22:45,334 - INFO - Chargement des données pour Algeria...
+2025-06-26 01:22:45,417 - INFO - Données de Algeria chargées depuis l'API
+2025-06-26 01:22:45,880 - INFO - Graphiques mis à jour avec succès
+2025-06-26 01:22:46,022 - INFO - Données de Algeria chargées avec succès
+2025-06-26 01:22:46,244 - INFO - Chargement des données pour Algeria...
+2025-06-26 01:22:46,245 - INFO - Données de Algeria chargées depuis le cache
+2025-06-26 01:22:46,816 - INFO - Graphiques mis à jour avec succès
+2025-06-26 01:22:46,882 - INFO - Données de Algeria chargées avec succès
+2025-06-26 01:22:47,768 - INFO - Génération des prédictions ML...
+2025-06-26 01:22:48,107 - INFO - Prédictions ML générées avec succès
+2025-06-26 01:22:48,109 - INFO - Prédictions générées: polynomial_2, R²=0.973
+2025-06-26 01:22:52,318 - INFO - Pays Algeria ajouté à la comparaison
+2025-06-26 01:24:52,617 - INFO - Module ML chargé avec succès
+2025-06-26 01:24:53,247 - INFO - Test de connexion API...
+2025-06-26 01:24:53,247 - INFO - Chargement de la liste des pays...
+2025-06-26 01:24:53,313 - INFO - Pays chargés depuis l'API: 246
+2025-06-26 01:24:53,363 - INFO - 246 pays disponibles
+2025-06-26 01:24:55,644 - INFO - API accessible et fonctionnelle
+2025-06-26 01:24:55,644 - INFO - API OK - Temps de réponse: 2266.73ms
+2025-06-26 01:24:59,123 - INFO - Chargement des données pour Algeria...
+2025-06-26 01:24:59,217 - INFO - Données de Algeria chargées depuis l'API
+2025-06-26 01:24:59,804 - INFO - Graphiques mis à jour avec succès
+2025-06-26 01:24:59,951 - INFO - Données de Algeria chargées avec succès
+2025-06-26 01:25:01,759 - INFO - Génération des prédictions ML...
+2025-06-26 01:25:02,092 - INFO - Prédictions ML générées avec succès
+2025-06-26 01:25:02,092 - INFO - Prédictions générées: polynomial_2, R²=0.973
+2025-06-26 01:25:04,804 - INFO - Pays Algeria ajouté à la comparaison
+2025-06-26 01:27:52,020 - INFO - Module ML chargé avec succès
+2025-06-26 01:27:52,596 - INFO - Chargement de la liste des pays...
+2025-06-26 01:27:52,597 - INFO - Test de connexion API...
+2025-06-26 01:27:53,926 - INFO - Pays chargés depuis l'API: 246
+2025-06-26 01:27:54,002 - INFO - API accessible et fonctionnelle
+2025-06-26 01:27:54,002 - INFO - API OK - Temps de réponse: 1294.0ms
+2025-06-26 01:27:54,013 - INFO - 246 pays disponibles
+2025-06-26 01:27:57,790 - INFO - Chargement des données pour Andorra...
+2025-06-26 01:27:57,870 - INFO - Données de Andorra chargées depuis l'API
+2025-06-26 01:27:58,345 - INFO - Graphiques mis à jour avec succès
+2025-06-26 01:27:58,399 - INFO - Données de Andorra chargées avec succès
+2025-06-26 01:28:01,157 - INFO - Pays Andorra ajouté à la comparaison
+2025-06-26 01:32:40,061 - INFO - Module ML chargé avec succès
+2025-06-26 01:32:40,630 - INFO - Chargement de la liste des pays...
+2025-06-26 01:32:40,630 - INFO - Test de connexion API...
+2025-06-26 01:32:41,871 - INFO - Pays chargés depuis l'API: 246
+2025-06-26 01:32:41,978 - INFO - API accessible et fonctionnelle
+2025-06-26 01:32:41,978 - INFO - 246 pays disponibles
+2025-06-26 01:32:41,981 - INFO - API OK - Temps de réponse: 1181.4ms
+2025-06-26 01:32:47,609 - INFO - Chargement des données pour American Samoa...
+2025-06-26 01:32:47,682 - INFO - Données de American Samoa chargées depuis l'API
+2025-06-26 01:32:48,196 - INFO - Graphiques mis à jour avec succès
+2025-06-26 01:32:48,264 - INFO - Données de American Samoa chargées avec succès
+2025-06-26 01:32:50,064 - INFO - Génération des prédictions ML...
+2025-06-26 01:32:50,409 - INFO - Prédictions ML générées avec succès
+2025-06-26 01:32:50,409 - INFO - Prédictions générées: polynomial_3, R²=0.908
+2025-06-26 01:32:57,082 - INFO - Pays American Samoa ajouté à la comparaison
+2025-06-26 01:33:00,037 - INFO - Comparatif interactif ouvert dans le navigateur
+2025-06-26 01:35:50,098 - INFO - Comparatif interactif ouvert dans le navigateur
+2025-06-26 01:39:57,606 - INFO - Module ML chargé avec succès
+2025-06-26 01:42:11,924 - INFO - Module ML chargé avec succès
+2025-06-26 01:42:12,410 - INFO - Chargement de la liste des pays...
+2025-06-26 01:42:12,410 - INFO - Test de connexion API...
+2025-06-26 01:42:12,511 - INFO - Pays chargés depuis l'API: 246
+2025-06-26 01:42:12,576 - INFO - 246 pays disponibles
+2025-06-26 01:42:13,845 - INFO - API accessible et fonctionnelle
+2025-06-26 01:42:13,846 - INFO - API OK - Temps de réponse: 1314.78ms
+2025-06-26 01:42:16,221 - INFO - Chargement des données pour Africa...
+2025-06-26 01:42:16,311 - INFO - Données de Africa chargées depuis l'API
+2025-06-26 01:42:16,838 - INFO - Graphiques mis à jour avec succès
+2025-06-26 01:42:16,917 - INFO - Données de Africa chargées avec succès
+2025-06-26 01:42:20,546 - INFO - Pays Africa ajouté à la comparaison
+2025-06-26 01:43:43,642 - INFO - Module ML chargé avec succès
+2025-06-26 01:43:44,307 - INFO - Test de connexion API...
+2025-06-26 01:43:44,308 - INFO - Chargement de la liste des pays...
+2025-06-26 01:43:44,347 - INFO - Pays chargés depuis l'API: 246
+2025-06-26 01:43:44,432 - INFO - 246 pays disponibles
+2025-06-26 01:43:45,478 - INFO - API accessible et fonctionnelle
+2025-06-26 01:43:45,479 - INFO - API OK - Temps de réponse: 1071.56ms
+2025-06-26 01:43:47,379 - INFO - Chargement des données pour Andorra...
+2025-06-26 01:43:47,520 - INFO - Données de Andorra chargées depuis l'API
+2025-06-26 01:43:47,992 - INFO - Graphiques mis à jour avec succès
+2025-06-26 01:43:48,138 - INFO - Données de Andorra chargées avec succès
+2025-06-26 01:43:50,575 - INFO - Pays Andorra ajouté à la comparaison
+2025-06-26 01:48:10,065 - INFO - Module ML chargé avec succès
+2025-06-26 01:48:10,666 - INFO - Chargement de la liste des pays...
+2025-06-26 01:48:10,670 - INFO - Test de connexion API...
+2025-06-26 01:48:11,808 - INFO - Pays chargés depuis l'API: 246
+2025-06-26 01:48:11,925 - INFO - API accessible et fonctionnelle
+2025-06-26 01:48:11,925 - INFO - 246 pays disponibles
+2025-06-26 01:48:11,926 - INFO - API OK - Temps de réponse: 1083.37ms
+2025-06-26 01:48:14,245 - INFO - Chargement des données pour Algeria...
+2025-06-26 01:48:14,307 - INFO - Données de Algeria chargées depuis l'API
+2025-06-26 01:48:14,869 - INFO - Graphiques mis à jour avec succès
+2025-06-26 01:48:15,034 - INFO - Données de Algeria chargées avec succès
+2025-06-26 01:48:17,318 - INFO - Pays Algeria ajouté à la comparaison
+2025-06-26 01:48:21,259 - INFO - Comparaison Plotly ouverte dans le navigateur
+2025-06-26 01:48:21,260 - INFO - Comparaison Plotly générée avec succès
+2025-06-26 01:50:05,519 - INFO - Module ML chargé avec succès
+2025-06-26 01:50:06,234 - INFO - Chargement de la liste des pays...
+2025-06-26 01:50:06,234 - INFO - Test de connexion API...
+2025-06-26 01:50:06,281 - INFO - Pays chargés depuis l'API: 246
+2025-06-26 01:50:06,409 - INFO - 246 pays disponibles
+2025-06-26 01:50:07,558 - INFO - API accessible et fonctionnelle
+2025-06-26 01:50:07,559 - INFO - API OK - Temps de réponse: 1221.85ms
+2025-06-26 01:50:10,657 - INFO - Chargement des données pour Anguilla...
+2025-06-26 01:50:10,756 - INFO - Données de Anguilla chargées depuis l'API
+2025-06-26 01:50:11,275 - INFO - Graphiques mis à jour avec succès
+2025-06-26 01:50:11,426 - INFO - Données de Anguilla chargées avec succès
+2025-06-26 01:50:11,984 - INFO - Génération des prédictions ML...
+2025-06-26 01:50:12,333 - INFO - Prédictions ML générées avec succès
+2025-06-26 01:50:12,334 - INFO - Prédictions générées: linear, R²=0.850
+2025-06-26 01:50:15,528 - INFO - Pays Anguilla ajouté à la comparaison
+2025-06-26 01:50:17,963 - INFO - Comparaison Plotly ouverte dans le navigateur
+2025-06-26 01:50:17,963 - INFO - Comparaison Plotly générée avec succès
+2025-06-26 01:51:00,509 - INFO - Comparaison Plotly ouverte dans le navigateur
+2025-06-26 01:51:00,510 - INFO - Comparaison Plotly générée avec succès
+2025-06-26 01:52:18,338 - INFO - Module ML chargé avec succès
+2025-06-26 01:52:18,889 - INFO - Chargement de la liste des pays...
+2025-06-26 01:52:18,889 - INFO - Test de connexion API...
+2025-06-26 01:52:18,937 - INFO - Pays chargés depuis l'API: 246
+2025-06-26 01:52:18,981 - INFO - 246 pays disponibles
+2025-06-26 01:52:20,040 - INFO - API accessible et fonctionnelle
+2025-06-26 01:52:20,042 - INFO - API OK - Temps de réponse: 1045.16ms
+2025-06-26 01:52:22,595 - INFO - Chargement des données pour Africa...
+2025-06-26 01:52:22,648 - INFO - Données de Africa chargées depuis l'API
+2025-06-26 01:52:23,199 - INFO - Graphiques mis à jour avec succès
+2025-06-26 01:52:23,342 - INFO - Données de Africa chargées avec succès
+2025-06-26 01:52:25,753 - INFO - Pays Africa ajouté à la comparaison
+2025-06-26 01:52:46,913 - INFO - Pays retiré de la comparaison
+2025-06-26 01:52:48,498 - INFO - Pays retiré de la comparaison
+2025-06-26 01:54:20,772 - INFO - Module ML chargé avec succès
+2025-06-26 01:54:21,583 - INFO - Test de connexion API...
+2025-06-26 01:54:21,583 - INFO - Chargement de la liste des pays...
+2025-06-26 01:54:21,628 - INFO - Pays chargés depuis l'API: 246
+2025-06-26 01:54:21,735 - INFO - 246 pays disponibles
+2025-06-26 01:54:22,929 - INFO - API accessible et fonctionnelle
+2025-06-26 01:54:22,929 - INFO - API OK - Temps de réponse: 1209.19ms
+2025-06-26 01:54:26,868 - INFO - Chargement des données pour Anguilla...
+2025-06-26 01:54:26,940 - INFO - Données de Anguilla chargées depuis l'API
+2025-06-26 01:54:27,425 - INFO - Graphiques mis à jour avec succès
+2025-06-26 01:54:27,568 - INFO - Données de Anguilla chargées avec succès
+2025-06-26 01:54:29,939 - INFO - Génération des prédictions ML...
+2025-06-26 01:54:30,253 - INFO - Prédictions ML générées avec succès
+2025-06-26 01:54:30,254 - INFO - Prédictions générées: linear, R²=0.850
+2025-06-26 01:54:33,951 - INFO - Pays Anguilla ajouté à la comparaison
+2025-06-26 01:54:36,499 - INFO - Comparaison Plotly ouverte dans le navigateur
+2025-06-26 01:54:36,500 - INFO - Comparaison Plotly générée avec succès
+2025-06-26 01:57:57,050 - INFO - Module ML chargé avec succès
+2025-06-26 01:57:57,653 - INFO - Chargement de la liste des pays...
+2025-06-26 01:57:57,653 - INFO - Test de connexion API...
+2025-06-26 01:57:58,905 - INFO - Pays chargés depuis l'API: 246
+2025-06-26 01:57:59,028 - INFO - API accessible et fonctionnelle
+2025-06-26 01:57:59,028 - INFO - API OK - Temps de réponse: 1227.53ms
+2025-06-26 01:57:59,029 - INFO - 246 pays disponibles
+2025-06-26 01:58:01,533 - INFO - Chargement des données pour Andorra...
+2025-06-26 01:58:01,593 - INFO - Données de Andorra chargées depuis l'API
+2025-06-26 01:58:02,135 - INFO - Graphiques mis à jour avec succès
+2025-06-26 01:58:02,212 - INFO - Données de Andorra chargées avec succès
+2025-06-26 01:58:04,939 - INFO - Pays Andorra ajouté à la comparaison
+2025-06-26 01:58:07,335 - INFO - Comparaison Plotly ouverte dans le navigateur
+2025-06-26 01:58:07,336 - INFO - Comparaison Plotly générée avec succès
+2025-06-26 01:59:41,667 - INFO - Module ML chargé avec succès
+2025-06-26 01:59:42,267 - INFO - Chargement de la liste des pays...
+2025-06-26 01:59:42,268 - INFO - Test de connexion API...
+2025-06-26 01:59:42,317 - INFO - Pays chargés depuis l'API: 246
+2025-06-26 01:59:42,426 - INFO - 246 pays disponibles
+2025-06-26 01:59:43,682 - INFO - API accessible et fonctionnelle
+2025-06-26 01:59:43,682 - INFO - API OK - Temps de réponse: 1251.8ms
+2025-06-26 01:59:46,755 - INFO - Chargement des données pour Andorra...
+2025-06-26 01:59:46,811 - INFO - Données de Andorra chargées depuis l'API
+2025-06-26 01:59:47,279 - INFO - Graphiques mis à jour avec succès
+2025-06-26 01:59:47,446 - INFO - Données de Andorra chargées avec succès
+2025-06-26 01:59:56,824 - INFO - Comparaison Plotly ouverte dans le navigateur
+2025-06-26 01:59:56,825 - INFO - Comparaison Plotly générée avec succès
+2025-06-26 02:02:10,182 - INFO - Module ML chargé avec succès
+2025-06-26 02:02:10,743 - INFO - Chargement de la liste des pays...
+2025-06-26 02:02:10,744 - INFO - Test de connexion API...
+2025-06-26 02:02:10,786 - INFO - Pays chargés depuis l'API: 246
+2025-06-26 02:02:10,826 - INFO - 246 pays disponibles
+2025-06-26 02:02:12,256 - INFO - API accessible et fonctionnelle
+2025-06-26 02:02:12,256 - INFO - API OK - Temps de réponse: 1341.86ms
+2025-06-26 02:02:14,298 - INFO - Chargement des données pour Africa...
+2025-06-26 02:02:14,376 - INFO - Données de Africa chargées depuis l'API
+2025-06-26 02:02:14,847 - INFO - Graphiques mis à jour avec succès
+2025-06-26 02:02:15,013 - INFO - Données de Africa chargées avec succès
+2025-06-26 02:02:17,919 - INFO - Génération des prédictions ML...
+2025-06-26 02:02:18,530 - INFO - Prédictions ML générées avec succès
+2025-06-26 02:02:18,543 - INFO - Prédictions générées: polynomial_2, R²=0.961
+2025-06-26 02:02:27,542 - INFO - Comparaison Plotly ouverte
+2025-06-26 02:04:39,588 - INFO - Module ML chargé avec succès
+2025-06-26 02:04:40,137 - INFO - Test de connexion API...
+2025-06-26 02:04:40,137 - INFO - Chargement de la liste des pays...
+2025-06-26 02:04:41,103 - INFO - Pays chargés depuis l'API: 246
+2025-06-26 02:04:41,181 - INFO - API accessible et fonctionnelle
+2025-06-26 02:04:41,182 - INFO - 246 pays disponibles
+2025-06-26 02:04:41,182 - INFO - API OK - Temps de réponse: 940.11ms
+2025-06-26 02:04:42,881 - INFO - Chargement des données pour Algeria...
+2025-06-26 02:04:42,963 - INFO - Données de Algeria chargées depuis l'API
+2025-06-26 02:04:43,516 - INFO - Graphiques mis à jour avec succès
+2025-06-26 02:04:43,573 - INFO - Données de Algeria chargées avec succès
+2025-06-26 02:04:47,577 - INFO - Génération des prédictions ML...
+2025-06-26 02:04:47,907 - INFO - Prédictions ML générées avec succès
+2025-06-26 02:04:47,908 - INFO - Prédictions générées: polynomial_2, R²=0.973
+2025-06-26 02:04:55,648 - INFO - Comparaison Plotly ouverte
+2025-06-26 02:10:00,298 - INFO - Module ML chargé avec succès
+2025-06-26 02:10:00,922 - INFO - Test de connexion API...
+2025-06-26 02:10:00,922 - INFO - Chargement de la liste des pays...
+2025-06-26 02:10:02,136 - INFO - Pays chargés depuis l'API: 246
+2025-06-26 02:10:02,239 - INFO - API accessible et fonctionnelle
+2025-06-26 02:10:02,239 - INFO - 246 pays disponibles
+2025-06-26 02:10:02,246 - INFO - API OK - Temps de réponse: 1165.13ms
+2025-06-26 02:10:06,695 - INFO - Chargement des données pour American Samoa...
+2025-06-26 02:10:06,761 - INFO - Données de American Samoa chargées depuis l'API
+2025-06-26 02:10:07,248 - INFO - Graphiques mis à jour avec succès
+2025-06-26 02:10:07,404 - INFO - Données de American Samoa chargées avec succès
+2025-06-26 02:10:09,099 - INFO - Génération des prédictions ML...
+2025-06-26 02:10:09,433 - INFO - Prédictions ML générées avec succès
+2025-06-26 02:10:09,434 - INFO - Prédictions générées: polynomial_3, R²=0.908
+2025-06-26 02:10:16,149 - WARNING - No artists with labels found to put in legend.  Note that artists whose label start with an underscore are ignored when legend() is called with no argument.
+2025-06-26 02:10:23,393 - INFO - Comparaison Plotly ouverte
+2025-06-26 02:10:55,101 - WARNING - No artists with labels found to put in legend.  Note that artists whose label start with an underscore are ignored when legend() is called with no argument.
+2025-06-26 02:14:33,548 - INFO - Module ML chargé avec succès
+2025-06-26 02:14:34,239 - INFO - Chargement de la liste des pays...
+2025-06-26 02:14:34,239 - INFO - Test de connexion API...
+2025-06-26 02:14:34,289 - INFO - Pays chargés depuis l'API: 246
+2025-06-26 02:14:34,388 - INFO - 246 pays disponibles
+2025-06-26 02:14:35,331 - INFO - API accessible et fonctionnelle
+2025-06-26 02:14:35,331 - INFO - API OK - Temps de réponse: 972.04ms
+2025-06-26 02:14:39,422 - INFO - Chargement des données pour Africa...
+2025-06-26 02:14:39,503 - INFO - Données de Africa chargées depuis l'API
+2025-06-26 02:14:39,997 - INFO - Graphiques mis à jour avec succès
+2025-06-26 02:14:40,151 - INFO - Données de Africa chargées avec succès
+2025-06-26 02:14:41,358 - INFO - Génération des prédictions ML...
+2025-06-26 02:14:41,722 - INFO - Prédictions ML générées avec succès
+2025-06-26 02:14:41,723 - INFO - Prédictions générées: polynomial_2, R²=0.961
+2025-06-26 02:14:50,591 - WARNING - No artists with labels found to put in legend.  Note that artists whose label start with an underscore are ignored when legend() is called with no argument.
+2025-06-26 02:15:14,904 - INFO - Comparaison Plotly ouverte
+2025-06-26 02:15:38,191 - INFO - Chargement des données pour Algeria...
+2025-06-26 02:15:38,262 - INFO - Données de Algeria chargées depuis l'API
+2025-06-26 02:15:38,730 - INFO - Graphiques mis à jour avec succès
+2025-06-26 02:15:38,735 - INFO - Données de Algeria chargées avec succès
+2025-06-26 02:15:39,977 - INFO - Génération des prédictions ML...
+2025-06-26 02:15:40,337 - INFO - Prédictions ML générées avec succès
+2025-06-26 02:15:40,337 - INFO - Prédictions générées: polynomial_2, R²=0.973
+2025-06-26 02:15:59,837 - WARNING - No artists with labels found to put in legend.  Note that artists whose label start with an underscore are ignored when legend() is called with no argument.
+2025-06-26 02:16:31,316 - WARNING - No artists with labels found to put in legend.  Note that artists whose label start with an underscore are ignored when legend() is called with no argument.
+2025-06-26 02:16:48,553 - WARNING - No artists with labels found to put in legend.  Note that artists whose label start with an underscore are ignored when legend() is called with no argument.
+2025-06-26 02:18:19,382 - INFO - Module ML chargé avec succès
+2025-06-26 02:18:19,936 - INFO - Chargement de la liste des pays...
+2025-06-26 02:18:19,936 - INFO - Test de connexion API...
+2025-06-26 02:18:21,026 - INFO - Pays chargés depuis l'API: 246
+2025-06-26 02:18:21,120 - INFO - API accessible et fonctionnelle
+2025-06-26 02:18:21,121 - INFO - 246 pays disponibles
+2025-06-26 02:18:21,121 - INFO - API OK - Temps de réponse: 1036.25ms
+2025-06-26 02:18:26,718 - INFO - Chargement des données pour Algeria...
+2025-06-26 02:18:26,784 - INFO - Données de Algeria chargées depuis l'API
+2025-06-26 02:18:27,305 - INFO - Graphiques mis à jour avec succès
+2025-06-26 02:18:27,470 - INFO - Données de Algeria chargées avec succès
+2025-06-26 02:18:27,619 - INFO - Génération des prédictions ML...
+2025-06-26 02:18:27,972 - INFO - Prédictions ML générées avec succès
+2025-06-26 02:18:27,972 - INFO - Prédictions générées: polynomial_2, R²=0.973
+2025-06-26 02:18:32,673 - WARNING - No artists with labels found to put in legend.  Note that artists whose label start with an underscore are ignored when legend() is called with no argument.
+2025-06-26 02:23:52,779 - WARNING - No artists with labels found to put in legend.  Note that artists whose label start with an underscore are ignored when legend() is called with no argument.
+2025-06-26 02:25:44,134 - INFO - Module ML chargé avec succès
+2025-06-26 02:25:44,746 - INFO - Chargement de la liste des pays...
+2025-06-26 02:25:44,746 - INFO - Test de connexion API...
+2025-06-26 02:25:47,127 - INFO - Pays chargés depuis l'API: 246
+2025-06-26 02:25:47,201 - INFO - API accessible et fonctionnelle
+2025-06-26 02:25:47,202 - INFO - API OK - Temps de réponse: 2344.4ms
+2025-06-26 02:25:47,202 - INFO - 246 pays disponibles
+2025-06-26 02:25:51,485 - INFO - Chargement des données pour Algeria...
+2025-06-26 02:25:51,554 - INFO - Données de Algeria chargées depuis l'API
+2025-06-26 02:25:51,980 - INFO - Graphiques mis à jour avec succès
+2025-06-26 02:25:51,986 - INFO - Données de Algeria chargées avec succès
+2025-06-26 02:25:53,330 - INFO - Génération des prédictions ML...
+2025-06-26 02:25:53,625 - INFO - Prédictions ML générées avec succès
+2025-06-26 02:25:53,626 - INFO - Prédictions générées: polynomial_2, R²=0.973
+2025-06-26 02:26:03,917 - INFO - Comparaison Plotly ouverte
+2025-06-26 02:29:12,253 - INFO - Module ML chargé avec succès
+2025-06-26 02:29:12,881 - INFO - Chargement de la liste des pays...
+2025-06-26 02:29:12,887 - INFO - Test de connexion API...
+2025-06-26 02:29:12,924 - INFO - Pays chargés depuis l'API: 246
+2025-06-26 02:29:12,997 - INFO - 246 pays disponibles
+2025-06-26 02:29:14,921 - INFO - API accessible et fonctionnelle
+2025-06-26 02:29:14,923 - INFO - API OK - Temps de réponse: 1680.43ms
+2025-06-26 02:29:24,032 - INFO - Chargement des données pour Morocco...
+2025-06-26 02:29:24,092 - INFO - Données de Morocco chargées depuis l'API
+2025-06-26 02:29:24,518 - INFO - Graphiques mis à jour avec succès
+2025-06-26 02:29:24,708 - INFO - Données de Morocco chargées avec succès
+2025-06-26 02:29:32,263 - INFO - Chargement des données pour Morocco...
+2025-06-26 02:29:32,308 - INFO - Données de Morocco chargées depuis l'API
+2025-06-26 02:29:32,528 - INFO - Graphiques mis à jour avec succès
+2025-06-26 02:29:32,578 - INFO - Données de Morocco chargées avec succès
+2025-06-26 02:29:35,428 - INFO - Génération des prédictions ML...
+2025-06-26 02:29:35,714 - INFO - Prédictions ML générées avec succès
+2025-06-26 02:29:35,715 - INFO - Prédictions générées: polynomial_3, R²=0.899
+2025-06-26 02:30:33,261 - INFO - Génération des prédictions ML...
+2025-06-26 02:30:33,539 - INFO - Prédictions ML générées avec succès
+2025-06-26 02:30:33,539 - INFO - Prédictions générées: linear, R²=0.377
+2025-06-26 02:33:27,028 - INFO - Comparaison Plotly ouverte
+2025-06-26 02:35:01,110 - INFO - Module ML chargé avec succès
+2025-06-26 02:35:01,637 - INFO - Chargement de la liste des pays...
+2025-06-26 02:35:01,638 - INFO - Test de connexion API...
+2025-06-26 02:35:03,224 - INFO - Pays chargés depuis l'API: 246
+2025-06-26 02:35:03,300 - INFO - 246 pays disponibles
+2025-06-26 02:35:03,300 - INFO - API accessible et fonctionnelle
+2025-06-26 02:35:03,301 - INFO - API OK - Temps de réponse: 1560.33ms
+2025-06-26 02:35:07,270 - INFO - Chargement des données pour Anguilla...
+2025-06-26 02:35:07,341 - INFO - Données de Anguilla chargées depuis l'API
+2025-06-26 02:35:07,766 - INFO - Graphiques mis à jour avec succès
+2025-06-26 02:35:07,907 - INFO - Données de Anguilla chargées avec succès
+2025-06-26 02:35:09,245 - INFO - Génération des prédictions ML...
+2025-06-26 02:35:09,550 - INFO - Prédictions ML générées avec succès
+2025-06-26 02:35:09,550 - INFO - Prédictions générées: linear, R²=0.850
+2025-06-26 02:36:12,298 - INFO - Module ML chargé avec succès
+2025-06-26 02:36:12,883 - INFO - Chargement de la liste des pays...
+2025-06-26 02:36:12,883 - INFO - Test de connexion API...
+2025-06-26 02:36:13,823 - INFO - Pays chargés depuis l'API: 246
+2025-06-26 02:36:13,922 - INFO - 246 pays disponibles
+2025-06-26 02:36:13,922 - INFO - API accessible et fonctionnelle
+2025-06-26 02:36:13,923 - INFO - API OK - Temps de réponse: 920.83ms
+2025-06-26 02:36:16,679 - INFO - Chargement des données pour Angola...
+2025-06-26 02:36:16,745 - INFO - Données de Angola chargées depuis l'API
+2025-06-26 02:36:17,196 - INFO - Graphiques mis à jour avec succès
+2025-06-26 02:36:17,244 - INFO - Données de Angola chargées avec succès
+2025-06-26 02:36:19,693 - INFO - Génération des prédictions ML...
+2025-06-26 02:36:20,047 - INFO - Prédictions ML générées avec succès
+2025-06-26 02:36:20,047 - INFO - Prédictions générées: polynomial_2, R²=0.934
+2025-06-26 02:37:19,574 - INFO - Comparaison Plotly ouverte
+2025-06-26 02:38:36,240 - INFO - Comparaison Plotly ouverte
+2025-06-26 02:39:28,218 - INFO - Comparaison Plotly ouverte
+2025-06-26 02:43:53,742 - INFO - Module ML chargé avec succès
+2025-06-26 02:43:54,392 - INFO - Chargement de la liste des pays...
+2025-06-26 02:43:54,392 - INFO - Test de connexion API...
+2025-06-26 02:43:54,448 - INFO - Pays chargés depuis l'API: 246
+2025-06-26 02:43:54,516 - INFO - 246 pays disponibles
+2025-06-26 02:43:55,825 - INFO - API accessible et fonctionnelle
+2025-06-26 02:43:55,826 - INFO - API OK - Temps de réponse: 1312.8ms
+2025-06-26 02:44:02,252 - INFO - Chargement des données pour American Samoa...
+2025-06-26 02:44:02,358 - INFO - Données de American Samoa chargées depuis l'API
+2025-06-26 02:44:02,943 - INFO - Graphiques mis à jour avec succès
+2025-06-26 02:44:03,095 - INFO - Données de American Samoa chargées avec succès
+2025-06-26 02:47:54,492 - INFO - Génération des prédictions ML...
+2025-06-26 02:47:55,075 - INFO - Prédictions ML générées avec succès
+2025-06-26 02:47:55,076 - INFO - Prédictions générées: polynomial_3, R²=0.908
+2025-06-26 02:48:00,606 - INFO - Génération des prédictions ML...
+2025-06-26 02:48:01,193 - INFO - Prédictions ML générées avec succès
+2025-06-26 02:48:01,194 - INFO - Prédictions générées: polynomial_3, R²=0.908
+2025-06-26 02:50:01,796 - INFO - Module ML chargé avec succès
+2025-06-26 02:50:02,552 - INFO - Chargement de la liste des pays...
+2025-06-26 02:50:02,552 - INFO - Test de connexion API...
+2025-06-26 02:50:04,513 - INFO - Pays chargés depuis l'API: 246
+2025-06-26 02:50:04,652 - INFO - API accessible et fonctionnelle
+2025-06-26 02:50:04,653 - INFO - 246 pays disponibles
+2025-06-26 02:50:04,653 - INFO - API OK - Temps de réponse: 1930.52ms
+2025-06-26 09:50:49,296 - INFO - Module ML chargé avec succès
+2025-06-26 09:50:50,119 - INFO - Chargement de la liste des pays...
+2025-06-26 09:50:50,119 - INFO - Test de connexion API...
+2025-06-26 09:50:53,916 - INFO - Pays chargés depuis l'API: 246
+2025-06-26 09:50:54,059 - INFO - 246 pays disponibles
+2025-06-26 09:50:54,060 - INFO - API accessible et fonctionnelle
+2025-06-26 09:50:54,060 - INFO - API OK - Temps de réponse: 3763.58ms
+2025-06-26 09:51:00,778 - INFO - Chargement des données pour Algeria...
+2025-06-26 09:51:00,930 - INFO - Données de Algeria chargées depuis l'API
+2025-06-26 09:51:01,669 - INFO - Graphiques mis à jour avec succès
+2025-06-26 09:51:01,876 - INFO - Données de Algeria chargées avec succès
+2025-06-26 09:51:07,043 - INFO - Génération des prédictions ML...
+2025-06-26 09:51:07,528 - INFO - Prédictions ML générées avec succès
+2025-06-26 09:51:07,528 - INFO - Prédictions générées: polynomial_2, R²=0.973
+2025-06-26 09:51:13,393 - INFO - Génération des prédictions ML...
+2025-06-26 09:51:13,855 - INFO - Prédictions ML générées avec succès
+2025-06-26 09:51:13,856 - INFO - Prédictions générées: polynomial_3, R²=0.975
+2025-06-26 09:51:26,448 - INFO - Chargement des données pour Algeria...
+2025-06-26 09:51:26,728 - INFO - Données de Algeria chargées depuis l'API
+2025-06-26 09:51:27,405 - INFO - Graphiques mis à jour avec succès
+2025-06-26 09:51:27,412 - INFO - Données de Algeria chargées avec succès
+2025-06-26 09:51:32,879 - INFO - Génération des prédictions ML...
+2025-06-26 09:51:33,243 - INFO - Prédictions ML générées avec succès
+2025-06-26 09:51:33,244 - INFO - Prédictions générées: polynomial_3, R²=0.993
+2025-06-26 09:52:18,486 - INFO - Génération des prédictions ML...
+2025-06-26 09:52:18,850 - INFO - Prédictions ML générées avec succès
+2025-06-26 09:52:18,851 - INFO - Prédictions générées: linear, R²=0.965
+2025-06-26 09:52:25,514 - INFO - Chargement des données pour Algeria...
+2025-06-26 09:52:25,539 - INFO - Données de Algeria chargées depuis l'API
+2025-06-26 09:52:25,994 - INFO - Graphiques mis à jour avec succès
+2025-06-26 09:52:26,008 - INFO - Données de Algeria chargées avec succès
+2025-06-26 09:52:27,788 - INFO - Génération des prédictions ML...
+2025-06-26 09:52:28,326 - INFO - Prédictions ML générées avec succès
+2025-06-26 09:52:28,327 - INFO - Prédictions générées: linear, R²=0.387
+2025-06-26 09:53:20,537 - INFO - Graphique Plotly ouvert dans le navigateur
+2025-06-26 09:53:20,537 - INFO - Graphique Plotly généré avec succès
+2025-06-26 09:53:47,040 - INFO - Graphiques mis à jour avec succès
+2025-06-26 09:54:12,749 - INFO - Graphiques mis à jour avec succès
+2025-06-26 10:04:06,715 - INFO - Module ML chargé avec succès
+2025-06-26 10:04:07,557 - INFO - Chargement de la liste des pays...
+2025-06-26 10:04:07,557 - INFO - Test de connexion API...
+2025-06-26 10:04:07,622 - INFO - Pays chargés depuis l'API: 246
+2025-06-26 10:04:07,716 - INFO - 246 pays disponibles
+2025-06-26 10:04:12,624 - INFO - API accessible et fonctionnelle
+2025-06-26 10:04:12,624 - INFO - API OK - Temps de réponse: 4934.0ms
+2025-06-26 10:04:17,678 - INFO - Chargement des données pour Algeria...
+2025-06-26 10:04:17,793 - INFO - Données de Algeria chargées depuis l'API
+2025-06-26 10:04:18,463 - INFO - Graphiques mis à jour avec succès
+2025-06-26 10:04:18,673 - INFO - Données de Algeria chargées avec succès
+2025-06-26 10:04:22,024 - INFO - Génération des prédictions ML...
+2025-06-26 10:04:22,045 - INFO - Prédictions ML générées avec succès
+2025-06-26 10:04:22,045 - INFO - Prédictions générées: polynomial_2, R²=0.973
+2025-06-26 10:04:28,061 - INFO - Génération des prédictions ML...
+2025-06-26 10:04:28,081 - INFO - Prédictions ML générées avec succès
+2025-06-26 10:04:28,081 - INFO - Prédictions générées: polynomial_2, R²=0.973
+2025-06-26 10:05:53,546 - INFO - Module ML chargé avec succès
+2025-06-26 10:05:54,484 - INFO - Chargement de la liste des pays...
+2025-06-26 10:05:54,485 - INFO - Test de connexion API...
+2025-06-26 10:05:59,185 - INFO - Pays chargés depuis l'API: 246
+2025-06-26 10:05:59,314 - INFO - API accessible et fonctionnelle
+2025-06-26 10:05:59,314 - INFO - 246 pays disponibles
+2025-06-26 10:05:59,314 - INFO - API OK - Temps de réponse: 4649.84ms
+2025-06-26 10:05:59,965 - INFO - Chargement des données pour Algeria...
+2025-06-26 10:06:00,056 - INFO - Données de Algeria chargées depuis l'API
+2025-06-26 10:06:00,752 - INFO - Graphiques mis à jour avec succès
+2025-06-26 10:06:00,940 - INFO - Données de Algeria chargées avec succès
+2025-06-26 10:06:02,028 - INFO - Génération des prédictions ML...
+2025-06-26 10:06:02,522 - INFO - Prédictions ML générées avec succès
+2025-06-26 10:06:02,522 - INFO - Prédictions générées: polynomial_2, R²=0.973
+2025-06-26 12:18:45,095 - INFO - Module ML chargé avec succès
+2025-06-26 12:18:46,886 - INFO - Chargement de la liste des pays...
+2025-06-26 12:18:46,886 - INFO - Test de connexion API...
+2025-06-26 12:18:46,947 - INFO - Pays chargés depuis l'API: 246
+2025-06-26 12:18:47,089 - INFO - 246 pays disponibles
+2025-06-26 12:18:51,991 - INFO - API répond mais erreur 500
+2025-06-26 12:18:51,992 - WARNING - API erreur 500
+2025-06-26 12:26:24,149 - INFO - Test de connexion API...
+2025-06-26 12:26:29,183 - INFO - API répond mais erreur 500
+2025-06-26 12:26:29,184 - WARNING - API erreur 500
+2025-06-26 12:26:35,331 - INFO - Chargement des données pour Algeria...
+2025-06-26 12:26:35,481 - INFO - Données de Algeria chargées depuis l'API
+2025-06-26 12:26:36,323 - INFO - Graphiques mis à jour avec succès
+2025-06-26 12:26:36,538 - INFO - Données de Algeria chargées avec succès
+2025-06-26 12:27:13,484 - INFO - Chargement des données pour Algeria...
+2025-06-26 12:27:13,526 - INFO - Données de Algeria chargées depuis l'API
+2025-06-26 12:27:13,852 - INFO - Graphiques mis à jour avec succès
+2025-06-26 12:27:13,895 - INFO - Données de Algeria chargées avec succès
+2025-06-26 12:27:35,480 - INFO - Génération des prédictions ML...
+2025-06-26 12:27:35,876 - INFO - Prédictions ML générées avec succès
+2025-06-26 12:27:35,877 - INFO - Prédictions générées: constant, R²=1.000
+2025-06-26 12:27:50,779 - INFO - Chargement des données pour Algeria...
+2025-06-26 12:27:50,873 - INFO - Données de Algeria chargées depuis l'API
+2025-06-26 12:27:51,370 - INFO - Graphiques mis à jour avec succès
+2025-06-26 12:27:51,544 - INFO - Données de Algeria chargées avec succès
+2025-06-26 12:27:53,395 - INFO - Génération des prédictions ML...
+2025-06-26 12:27:53,787 - INFO - Prédictions ML générées avec succès
+2025-06-26 12:27:53,788 - INFO - Prédictions générées: polynomial_3, R²=0.993
+2025-06-26 12:28:41,222 - INFO - Génération des prédictions ML...
+2025-06-26 12:28:41,578 - INFO - Prédictions ML générées avec succès
+2025-06-26 12:28:41,579 - INFO - Prédictions générées: linear, R²=0.965
+2025-06-26 12:28:46,304 - INFO - Génération des prédictions ML...
+2025-06-26 12:28:46,762 - INFO - Prédictions ML générées avec succès
+2025-06-26 12:28:46,763 - INFO - Prédictions générées: polynomial_3, R²=0.993
+2025-06-26 12:28:50,306 - INFO - Génération des prédictions ML...
+2025-06-26 12:28:50,677 - INFO - Prédictions ML générées avec succès
+2025-06-26 12:28:50,678 - INFO - Prédictions générées: linear, R²=0.965
+2025-06-26 12:29:18,048 - INFO - Comparaison Plotly ouverte
+2025-06-26 12:31:01,645 - INFO - Chargement des données pour Algeria...
+2025-06-26 12:31:01,646 - INFO - Données de Algeria chargées depuis le cache
+2025-06-26 12:31:02,240 - INFO - Graphiques mis à jour avec succès
+2025-06-26 12:31:02,246 - INFO - Données de Algeria chargées avec succès
+2025-06-26 12:32:17,042 - INFO - Test de connexion API...
+2025-06-26 12:32:19,223 - INFO - Impossible de se connecter à l'API
+2025-06-26 12:32:19,224 - ERROR - Connexion API impossible
+2025-06-26 12:34:08,724 - INFO - Chargement des données pour Algeria...
+2025-06-26 12:34:10,006 - INFO - Génération des prédictions ML...
+2025-06-26 12:34:10,341 - INFO - Prédictions ML générées avec succès
+2025-06-26 12:34:10,341 - INFO - Prédictions générées: linear, R²=0.812
+2025-06-26 12:34:10,774 - ERROR - Erreur réseau: HTTPConnectionPool(host='127.0.0.1', port=8001): Max retries exceeded with url: /stats/Algeria (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000028BEE715880>: Failed to establish a new connection: [WinError 10061] Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée'))
+2025-06-26 12:34:14,871 - INFO - Génération des prédictions ML...
+2025-06-26 12:34:15,418 - INFO - Prédictions ML générées avec succès
+2025-06-26 12:34:15,419 - INFO - Prédictions générées: linear, R²=0.812
+2025-06-26 13:15:42,234 - INFO - Cache vidé
+2025-06-26 13:15:52,671 - INFO - Comparaison Plotly ouverte
+2025-07-31 16:08:57,647 - INFO - Module ML chargé avec succès
+2025-07-31 16:09:01,358 - INFO - Test de connexion API...
+2025-07-31 16:09:01,359 - INFO - Chargement de la liste des pays...
+2025-07-31 16:09:04,204 - INFO - Impossible de se connecter à l'API
+2025-07-31 16:09:04,205 - ERROR - Connexion API impossible
+2025-07-31 16:09:04,213 - ERROR - Erreur réseau lors du chargement des pays: HTTPConnectionPool(host='127.0.0.1', port=8000): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000027BB2C168E0>: Failed to establish a new connection: [WinError 10061] Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée'))
+2025-07-31 16:09:19,209 - INFO - Test de connexion API...
+2025-07-31 16:09:21,513 - INFO - Impossible de se connecter à l'API
+2025-07-31 16:09:21,514 - ERROR - Connexion API impossible
