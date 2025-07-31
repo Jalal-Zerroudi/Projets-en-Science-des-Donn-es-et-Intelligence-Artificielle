@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Titanic Survival Predictor</title>
+    
+    <!-- CDN - Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- CDN - Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- CDN - AOS (Animate On Scroll) -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    
+    <!-- CDN - SweetAlert2 -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert2/11.7.32/sweetalert2.all.min.js"></script>
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+            min-height: 100vh;
+        }
+        
+        .glass-card {
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(15px);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            box-shadow: 0 15px 35px rgba(0, 0, 0, 0.1);
+        }
+        
+        .input-group {
+            position: relative;
+            margin-bottom: 1.5rem;
+        }
+        
+        .input-field {
+            width: 100%;
+            padding: 15px 20px 15px 55px;
+            background: rgba(255, 255, 255, 0.9);
+            border: 2px solid transparent;
+            border-radius: 15px;
+            font-size: 16px;
+            transition: all 0.3s ease;
+            backdrop-filter: blur(10px);
+        }
+        
+        .input-field:focus {
+            outline: none;
+            border-color: #667eea;
+            background: rgba(255, 255, 255, 0.95);
+            box-shadow: 0 0 20px rgba(102, 126, 234, 0.3);
+            transform: translateY(-2px);
+        }
+        
+        .input-icon {
+            position: absolute;
+            left: 20px;
+            top: 50%;
+            transform: translateY(-50%);
+            color: #667eea;
+            font-size: 18px;
+            z-index: 10;
+        }
+        
+        .input-label {
+            position: absolute;
+            left: 55px;
+            top: 15px;
+            color: #666;
+            font-size: 14px;
+            font-weight: 500;
+            pointer-events: none;
+            transition: all 0.3s ease;
+        }
+        
+        .input-field:focus + .input-label,
+        .input-field:not(:placeholder-shown) + .input-label {
+            top: -10px;
+            left: 15px;
+            font-size: 12px;
+            color: #667eea;
+            background: white;
+            padding: 0 8px;
+            border-radius: 4px;
+        }
+        
+        .predict-btn {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            border: none;
+            padding: 18px 40px;
+            border-radius: 50px;
+            color: white;
+            font-weight: 600;
+            font-size: 18px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            box-shadow: 0 10px 30px rgba(102, 126, 234, 0.4);
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .predict-btn:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 15px 40px rgba(102, 126, 234, 0.6);
+        }
+        
+        .predict-btn:active {
+            transform: translateY(-1px);
+        }
+        
+        .predict-btn::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: -100%;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.2), transparent);
+            transition: left 0.5s;
+        }
+        
+        .predict-btn:hover::before {
+            left: 100%;
+        }
+        
+        .loading {
+            pointer-events: none;
+            opacity: 0.7;
+        }
+        
+        .loading::after {
+            content: '';
+            position: absolute;
+            width: 20px;
+            height: 20px;
+            top: 50%;
+            left: 50%;
+            margin-left: -10px;
+            margin-top: -10px;
+            border: 2px solid transparent;
+            border-top: 2px solid #ffffff;
+            border-radius: 50%;
+            animation: spin 1s linear infinite;
+        }
+        
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+        
+        .floating-ship {
+            animation: floating 3s ease-in-out infinite;
+        }
+        
+        @keyframes floating {
+            0%, 100% { transform: translateY(0px) rotate(-2deg); }
+            50% { transform: translateY(-15px) rotate(2deg); }
+        }
+        
+        .wave {
+            animation: wave 2s ease-in-out infinite;
+        }
+        
+        @keyframes wave {
+            0%, 100% { transform: rotate(0deg); }
+            50% { transform: rotate(5deg); }
+        }
+        
+        .result-card {
+            background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
+            border-radius: 20px;
+            padding: 25px;
+            text-align: center;
+            color: white;
+            transform: scale(0);
+            transition: all 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+        }
+        
+        .result-card.show {
+            transform: scale(1);
+        }
+        
+        .survival-icon {
+            font-size: 4rem;
+            margin-bottom: 15px;
+            animation: bounce 1s infinite;
+        }
+        
+        @keyframes bounce {
+            0%, 20%, 50%, 80%, 100% { transform: translateY(0); }
+            40% { transform: translateY(-10px); }
+            60% { transform: translateY(-5px); }
+        }
+        
+        .form-step {
+            opacity: 0;
+            transform: translateX(30px);
+            animation: slideIn 0.6s ease forwards;
+        }
+        
+        @keyframes slideIn {
+            to {
+                opacity: 1;
+                transform: translateX(0);
+            }
+        }
+        
+        .select-wrapper {
+            position: relative;
+        }
+        
+        .select-field {
+            appearance: none;
+            background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 20 20'%3e%3cpath stroke='%236b7280' stroke-linecap='round' stroke-linejoin='round' stroke-width='1.5' d='M6 8l4 4 4-4'/%3e%3c/svg%3e");
+            background-position: right 20px center;
+            background-repeat: no-repeat;
+            background-size: 16px;
+        }
+    </style>
+</head>
+<body class="min-h-screen flex items-center justify-center p-4">
+    <!-- Background Animation -->
+    <div class="fixed inset-0 overflow-hidden pointer-events-none">
+        <div class="absolute -top-1/2 -right-1/2 w-full h-full bg-white opacity-5 rounded-full"></div>
+        <div class="absolute -bottom-1/2 -left-1/2 w-full h-full bg-white opacity-3 rounded-full"></div>
+    </div>
+
+    <div class="w-full max-w-2xl mx-auto relative z-10">
+        <!-- Header -->
+        <div class="text-center mb-8" data-aos="fade-down">
+            <div class="inline-block p-4 bg-white bg-opacity-20 rounded-full mb-4 floating-ship">
+                <i class="fas fa-ship text-white text-4xl"></i>
+            </div>
+            <h1 class="text-4xl md:text-5xl font-bold text-white mb-2">
+                Titanic Survival Predictor
+            </h1>
+            <p class="text-blue-100 text-lg">
+                Découvrez vos chances de survie à bord du Titanic
+            </p>
+        </div>
+
+        <!-- Main Form Card -->
+        <div class="glass-card rounded-3xl p-8 md:p-10" data-aos="fade-up">
+            <form id="form" class="space-y-6">
+                <!-- Passenger Class -->
+                <div class="input-group form-step" style="animation-delay: 0.1s">
+                    <i class="fas fa-crown input-icon"></i>
+                    <select name="Pclass" class="input-field select-field select-wrapper" required>
+                        <option value="" disabled selected></option>
+                        <option value="1">1ère Classe - Luxe</option>
+                        <option value="2">2ème Classe - Confort</option>
+                        <option value="3">3ème Classe - Économique</option>
+                    </select>
+                    <label class="input-label">Classe de Passager</label>
+                </div>
+
+                <!-- Gender -->
+                <div class="input-group form-step" style="animation-delay: 0.2s">
+                    <i class="fas fa-venus-mars input-icon"></i>
+                    <select name="Sex" class="input-field select-field" required>
+                        <option value="" disabled selected></option>
+                        <option value="0">♂ Homme</option>
+                        <option value="1">♀ Femme</option>
+                    </select>
+                    <label class="input-label">Sexe</label>
+                </div>
+
+                <!-- Age -->
+                <div class="input-group form-step" style="animation-delay: 0.3s">
+                    <i class="fas fa-birthday-cake input-icon"></i>
+                    <input type="number" name="Age" class="input-field" min="0" max="100" step="0.1" placeholder=" " required>
+                    <label class="input-label">Âge (années)</label>
+                </div>
+
+                <!-- Siblings/Spouses -->
+                <div class="input-group form-step" style="animation-delay: 0.4s">
+                    <i class="fas fa-heart input-icon"></i>
+                    <input type="number" name="SibSp" class="input-field" min="0" max="10" placeholder=" " required>
+                    <label class="input-label">Frères/Sœurs/Époux à bord</label>
+                </div>
+
+                <!-- Parents/Children -->
+                <div class="input-group form-step" style="animation-delay: 0.5s">
+                    <i class="fas fa-users input-icon"></i>
+                    <input type="number" name="Parch" class="input-field" min="0" max="10" placeholder=" " required>
+                    <label class="input-label">Parents/Enfants à bord</label>
+                </div>
+
+                <!-- Fare -->
+                <div class="input-group form-step" style="animation-delay: 0.6s">
+                    <i class="fas fa-pound-sign input-icon"></i>
+                    <input type="number" name="Fare" class="input-field" min="0" step="0.01" placeholder=" " required>
+                    <label class="input-label">Prix du Billet (£)</label>
+                </div>
+
+                <!-- Embarked -->
+                <div class="input-group form-step" style="animation-delay: 0.7s">
+                    <i class="fas fa-anchor input-icon"></i>
+                    <select name="Embarked" class="input-field select-field" required>
+                        <option value="" disabled selected></option>
+                        <option value="0">🇫🇷 Cherbourg</option>
+                        <option value="1">🇮🇪 Queenstown</option>
+                        <option value="2">🇬🇧 Southampton</option>
+                    </select>
+                    <label class="input-label">Port d'Embarquement</label>
+                </div>
+
+                <!-- Submit Button -->
+                <div class="text-center pt-6 form-step" style="animation-delay: 0.8s">
+                    <button type="submit" class="predict-btn">
+                        <i class="fas fa-crystal-ball mr-3"></i>
+                        Prédire la Survie
+                    </button>
+                </div>
+            </form>
+        </div>
+
+        <!-- Result Card -->
+        <div id="resultCard" class="result-card mt-8" data-aos="fade-up">
+            <div id="resultContent"></div>
+        </div>
+    </div>
+
+    <script>
+        // Initialize AOS
+        AOS.init({
+            duration: 1000,
+            once: true
+        });
+
+        // Form submission
+        document.getElementById("form").onsubmit = async function(e) {
+            e.preventDefault();
+            
+            const submitBtn = e.target.querySelector('button[type="submit"]');
+            const resultCard = document.getElementById('resultCard');
+            const resultContent = document.getElementById('resultContent');
+            
+            // Add loading state
+            submitBtn.classList.add('loading');
+            submitBtn.innerHTML = '<i class="fas fa-spinner mr-3"></i>Analyse en cours...';
+            
+            // Hide previous result
+            resultCard.classList.remove('show');
+            
+            try {
+                // Collect form data
+                const formData = new FormData(e.target);
+                const data = Object.fromEntries(formData);
+                
+                // Convert to numbers
+                for (let key in data) {
+                    data[key] = parseFloat(data[key]);
+                }
+                
+                // Simulate API call (replace with your actual endpoint)
+                await new Promise(resolve => setTimeout(resolve, 1500));
+                
+                // Mock response - replace with actual API call
+                /*
+                const response = await fetch("http://localhost:8000/predict", {
+                    method: "POST",
+                    headers: {"Content-Type": "application/json"},
+                    body: JSON.stringify(data)
+                });
+                const result = await response.json();
+                */
+                
+                // Mock prediction based on historical data patterns
+                const mockPrediction = predictSurvival(data);
+                const result = { survived: mockPrediction.survived, probability: mockPrediction.probability };
+                
+                // Display result
+                displayResult(result);
+                
+            } catch (error) {
+                console.error('Error:', error);
+                Swal.fire({
+                    icon: 'error',
+                    title: 'Erreur',
+                    text: 'Une erreur est survenue lors de la prédiction. Veuillez réessayer.',
+                    confirmButtonColor: '#667eea'
+                });
+            } finally {
+                // Remove loading state
+                submitBtn.classList.remove('loading');
+                submitBtn.innerHTML = '<i class="fas fa-crystal-ball mr-3"></i>Prédire la Survie';
+            }
+        };
+        
+        function predictSurvival(data) {
+            // Simple rule-based prediction for demo
+            let survivalScore = 0;
+            
+            // Gender (most important factor)
+            if (data.Sex === 1) survivalScore += 40; // Female
+            
+            // Class
+            if (data.Pclass === 1) survivalScore += 25;
+            else if (data.Pclass === 2) survivalScore += 15;
+            else survivalScore += 5;
+            
+            // Age
+            if (data.Age < 16) survivalScore += 20; // Children
+            else if (data.Age > 60) survivalScore -= 10; // Elderly
+            
+            // Family aboard
+            const familySize = data.SibSp + data.Parch;
+            if (familySize > 0 && familySize < 4) survivalScore += 10;
+            else if (familySize >= 4) survivalScore -= 5;
+            
+            // Fare (wealth indicator)
+            if (data.Fare > 50) survivalScore += 15;
+            else if (data.Fare > 20) survivalScore += 5;
+            
+            const probability = Math.min(Math.max(survivalScore, 10), 90);
+            return {
+                survived: probability > 50 ? 1 : 0,
+                probability: probability
+            };
+        }
+        
+        function displayResult(result) {
+            const resultCard = document.getElementById('resultCard');
+            const resultContent = document.getElementById('resultContent');
+            
+            const survived = result.survived === 1;
+            const probability = result.probability || (survived ? 75 : 25);
+            
+            const icon = survived ? '🎉' : '😢';
+            const status = survived ? 'SURVIE' : 'DÉCÈS';
+            const message = survived ? 
+                'Félicitations ! Vous auriez survécu au naufrage du Titanic !' :
+                'Malheureusement, vous n\'auriez pas survécu au naufrage du Titanic.';
+            
+            const color = survived ? 
+                'linear-gradient(135deg, #4facfe 0%, #00f2fe 100%)' :
+                'linear-gradient(135deg, #ff6b6b 0%, #ee5a24 100%)';
+            
+            resultContent.innerHTML = `
+                <div class="survival-icon">${icon}</div>
+                <h3 class="text-3xl font-bold mb-2">${status}</h3>
+                <p class="text-lg mb-4">${message}</p>
+                <div class="bg-white bg-opacity-20 rounded-lg p-4">
+                    <div class="text-sm opacity-80 mb-1">Probabilité de survie</div>
+                    <div class="text-2xl font-bold">${probability.toFixed(1)}%</div>
+                </div>
+            `;
+            
+            resultCard.style.background = color;
+            
+            // Show result with animation
+            setTimeout(() => {
+                resultCard.classList.add('show');
+            }, 100);
+            
+            // Success sound effect (optional)
+            if (survived) {
+                Swal.fire({
+                    icon: 'success',
+                    title: 'Survie !',
+                    text: `Vous auriez eu ${probability.toFixed(1)}% de chances de survie !`,
+                    confirmButtonColor: '#667eea',
+                    timer: 3000,
+                    timerProgressBar: true
+                });
+            }
+        }
+        
+        // Add smooth scrolling to result
+        function scrollToResult() {
+            document.getElementById('resultCard').scrollIntoView({
+                behavior: 'smooth',
+                block: 'center'
+            });
+        }
+    </script>
+</body>
+</html>
